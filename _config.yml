@@ -1,19 +1,5 @@
 theme: jekyll-theme-slate
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "CV"
-    url: "/cv"
-  - title: "Publications"
-    url: "/publications"
-  - title: "Charité Pipelines"
-    url: "/charite-infectious-diseases-pipelines/"
-# This tells Jekyll to include the custom stylesheet
-sass:
-  style: compressed
+title: "Charité Bioinformatics Tutorials"
+baseurl: "/bioinformatics-tutorial"  # important for GitHub Pages under org/repo
+url: "https://charite-infectious-diseases.github.io"
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      css: "/assets/css/custom.css"
