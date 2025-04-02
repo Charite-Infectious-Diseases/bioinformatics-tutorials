@@ -5,7 +5,7 @@ layout: default
 
 # ENA Raw Read Submission Pipeline
 
-This pipeline walks you through submitting raw sequencing reads to the **European Nucleotide Archive (ENA)**.
+This pipeline walks you through submitting raw sequencing reads to the European Nucleotide Archive (ENA).
 
 Supported read file formats are: CRAM, BAM, Single-end FASTQ, Paired-end FASTQ, HDF5 and FAST5
 
@@ -14,7 +14,7 @@ Read submission can be completed in 3 steps:
 2. Read upload via command line interface
 3. Read metadata upload via web interface
 
-[`-> Go to metadata collection`](./ENA-metadata-collection.md)
+[`-> Go to metadata collection`](ENA-metadata-collection.md)
 
 ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/login) first and then repeat the steps for the [`production version`](https://www.ebi.ac.uk/ena/submit/webin/login)
 
@@ -28,7 +28,7 @@ ALWAYS complete a [`test version`](https://wwwdev.ebi.ac.uk/ena/submit/webin/log
    
    (3 lines on top left part of the screen opens the dashboard for navigation)
    
-4. Register samples -> Download spreadsheet. For human or mouse RNA-seq data, choose "Other checklists". Next, for human/mouse data, choose default checklist. Fill up ([`see here for help`](./ENA-metadata-collection.md)), go back to "Register samples" on dashboard and select Upload. Save assigned sample accession IDs from "Samples Report" for the read files checklist.
+4. Register samples -> Download spreadsheet. For human or mouse RNA-seq data, choose "Other checklists". Next, for human/mouse data, choose default checklist. Fill up ([`see here for help`](ENA-metadata-collection.md)), go back to "Register samples" on dashboard and select Upload. Save assigned sample accession IDs from "Samples Report" for the read files checklist.
 For environmental and organismal (host-associated) samples, check resource 2.
 
 5. To fill out the read files checklist, we can follow Step 4 in resource 2.
@@ -71,7 +71,7 @@ For environmental and organismal (host-associated) samples, check resource 2.
       
       This works for Mac and Linux. [`Example on Windows`](https://unihost.com/blog/how-to-connect-to-ftp-server/)
 
-6. Last step: to upload the read files checklist along with the md5sum for each file, go to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](./ENA-metadata-collection.md)) -> upload.
+6. Last step: to upload the read files checklist along with the md5sum for each file, go to Dashboard -> Submit Reads -> Select download option based on file format -> fill up ([`see here for help`](ENA-metadata-collection.md)) -> upload.
 
 Here, it is critical that the md5sums on the checklist should match those on the FTP server for each file. Once they do, "Run Files Report" on dashboard will indicate this with "File archived" or similar. If there are errors, you will see it immediately.
 
