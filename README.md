@@ -1,1 +1,1 @@
-# parnika-mukherjee.github.io
+# Bioinformatiocs tutorials
