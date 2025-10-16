@@ -3,7 +3,7 @@ title: Charité Pipelines
 layout: default
 ---
 
-[← Back to Home](../)
+← Back to [Home](../)
 
 # 🧪 Charité – Infectious Disease Pipelines
 
@@ -11,8 +11,8 @@ This section hosts a collection of reproducible pipelines used in our bioinforma
 
 ## 📂 Available Pipelines
 
-- [ENA Raw Read Submission](ENA-raw-read-submission.md)
-- [Bulk RNA-seq Analysis](rna-seq.md)
+- [ENA Raw Read Submission](./ENA-raw-read-submission.md)
+- [Bulk RNA-seq Analysis](./rna-seq.md)
 - *(More coming soon...)*
 
 Each pipeline includes:
