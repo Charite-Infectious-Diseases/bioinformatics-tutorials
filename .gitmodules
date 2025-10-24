@@ -1,0 +1,3 @@
+[submodule "charite-infectious-diseases-pipelines"]
+	path = charite-infectious-diseases-pipelines
+	url = https://github.com/parnika-mukherjee/charite-infectious-diseases-pipelines.git
